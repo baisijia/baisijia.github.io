@@ -1,0 +1,19 @@
+---
+title: "Hi Hi"
+---
+
+## News
+
+### My website
+
+**This is my first website and it ha the following pages:**
+
+- point1
+- point2
+  - point 2.1
+  - point 2.2
+  
+```{r,echo=FALSE}
+plot(mtcars$wt, mtcars$mpg, type = "l", main = "Weight vs. MPG", xlab = "Weight", ylab = "Miles per gallon")
+
+```

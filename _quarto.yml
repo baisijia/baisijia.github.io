@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+execute: 
+  freeze: true
+  
+website:
+  title: "baisijia"
+  navbar:
+    search: true
+    left:  
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - file: "achievements.qmd"
+        text: Achievements
+    right: 
+      - icon: linkedin
+        href: www.linkein.com
+      - icon: twitter
+        href: www.twritter.com
+      
+
+format:
+  html:
+    theme: 
+     light: Minty
+     dark: Sketchy
+    css: styles.css
+    toc: true
+
+editor: visual
+
+
