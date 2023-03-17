@@ -1,5 +1,5 @@
 {
-  "hash": "8426a7baec1ec941a6868a9d3e55ac98",
+  "hash": "aa887fd82429ff0e844a72d20d214fdc",
   "result": {
     "markdown": "---\ntitle: \"Hi Hi\"\n---\n\n\n## News\n\n### My website\n\n**This is my first website and it ha the following pages:**\n\n- point1\n- point2\n  - point 2.1\n  - point 2.2\n  \n\n::: {.cell}\n::: {.cell-output-display}\n![](index_files/figure-html/unnamed-chunk-2-1.png){width=672}\n:::\n:::",
     "supporting": [

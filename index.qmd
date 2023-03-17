@@ -14,6 +14,9 @@ title: "Hi Hi"
   - point 2.2
   
 ```{r,echo=FALSE}
-plot(mtcars$wt, mtcars$mpg, type = "l", main = "Weight vs. MPG", xlab = "Weight", ylab = "Miles per gallon")
+my_func <- function(x) {
+  return(x^2 + 2*x + 1)
+}
 
+curve(my_func, from = -5, to = 5, xlab = "x", ylab = "y", main = "My Function")
 ```
